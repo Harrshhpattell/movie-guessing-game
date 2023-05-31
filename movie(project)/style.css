@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/img1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  background-color: #27374D;
+  border-radius: 10px 10px 0 0;
+  padding: 2%;
+  margin: 0 0 7% 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #F9F5F6;
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 600px;
+  margin:0 auto;
+  padding: 0%;
+  border: 1px solid white;
+  box-shadow: 0 0px 6px #EDF1D6;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.hint_section{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10%;
+}
+
+.hint {
+  font-size: 150%;
+  margin-bottom: 15px;
+  color: #27374D;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #F9F5F6;
+  border-radius: 10px;
+  border: 0.5px solid #27374D;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 5% 0;
+}
+
+
+#btn {
+  background-color: transparent;
+  float: right;
+  margin-top: 10%;
+  border-color: #36395A;
+  cursor: pointer;
+}
+#namehide{
+  display: none;
+}
+
+.button-30 {
+align-items: center;
+appearance: none;
+background-color: #FCFCFD;
+border-radius: 4px;
+border-width: 0;
+box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+box-sizing: border-box;
+color: #36395A;
+cursor: pointer;
+display: inline-flex;
+font-family: "JetBrains Mono",monospace;
+height: 48px;
+justify-content: center;
+line-height: 1;
+list-style: none;
+overflow: hidden;
+padding-left: 16px;
+padding-right: 16px;
+position: relative;
+text-align: left;
+text-decoration: none;
+transition: box-shadow .15s,transform .15s;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+will-change: box-shadow,transform;
+font-size: 18px;
+}
+
+.button-30:focus {
+box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+transform: translateY(-2px);
+}
+
+.button-30:active {
+box-shadow: #D6D6E7 0 3px 7px inset;
+transform: translateY(2px);
+}
